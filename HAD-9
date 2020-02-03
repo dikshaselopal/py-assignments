@@ -1,0 +1,51 @@
+#HAD-9 Q1:
+'''import random
+import math
+userinput=int(input("enter a number: "))
+if(userinput%7==0):
+    print("it is divisible by 7")
+else:
+    print("not divisible")'''
+
+    #HAD-9 Q2
+'''menu=['pizza','burger','fries','coke']
+print("MENU: ", menu)
+order=input("enter a food name from menu:")
+if(order in menu):
+  print("will be served to you soon, Thank you")
+else:
+  print("sorry!!! we are not delivering this today ")'''
+
+  #HAD-9 Q3
+'''userinput=int(input("enter the length in centimeters: "))
+if(userinput<0):
+    print("entry is invalid")
+else:
+    print(userinput*2.54)'''
+ #HAD-9 Q4
+'''import random
+userinput=input("enter a number to guess: ")
+computernumber=random.randint(1,10)
+print(computernumber)
+if(userinput==computernumber):
+    print("your guess is right")
+else:
+    print("your guess is wrong")'''
+#HAD-9 Q6
+import random
+score=0
+for i in range(5):
+  a=int(input("enter the number :"))
+  computer=random.randint(0,11)
+  if(a==computer):
+    print("great your guess is correct")
+    score+=10
+  else:
+    print("sorry your number is incorrect")
+    score-=1
+print("your score "+str(score))
+
+
+
+
+
