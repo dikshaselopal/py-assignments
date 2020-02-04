@@ -1,0 +1,31 @@
+#CAD-6 Q1
+a='*'
+print(a*10)
+print(a*10)
+print(a*10)
+print(a*10)
+#CAD-6 Q2
+a='*'
+print(a*5)
+print(a+"   "+a)
+print(a+"   "+a)
+print(a*5)
+
+#CAD-6 Q3
+a='*'
+for i in range(1,5):
+    print(a*i)
+
+
+#CAD-6 Q4
+personaldetails=[input("enter your name: "),input("phonenumber: "), input("emailaddress: ")]
+print(personaldetails)
+
+#CAD-6 Q5
+a='helloo'
+print((a[0]*2)+(a[1]*2)+(a[2]*2)+(a[3]*2)+(a[4]*2))
+
+#CAD-6 Q6
+a='Apple'
+print((a[0])+(a[0]+a[1])+ (a[0]+a[1]*2)+(a[0]+a[1]*2+a[3])+(a))
+

@@ -1,0 +1,8 @@
+'''months={'year':'month','january':31,'feb':28,'march':31,'april':30,'may':31,'june':30,'july':31,'august':31,'sept':31,'october':30,'nov':30,'dec':31}
+for key in months:
+ print(months[key])'''
+
+months={'name':['jatin','ankush','pankaj'],
+        'phone' :['123','456','789']}
+for key in months:
+    print(months[key])
