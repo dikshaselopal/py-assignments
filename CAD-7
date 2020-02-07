@@ -1,0 +1,77 @@
+##CAD-7 Q1 a):
+number=(1+2)*(3/4.0)
+print(number)
+#b:
+remainder=11%3
+print(remainder)
+#c:
+square=7**2
+print(square)
+#d
+cubed= 2**3
+print(cubed)
+#e
+listrepeat=[1,2,3]*3
+print(listrepeat)
+
+#CAD-7 Q2:
+input1=input("enter the first string: ")
+input2=input("enter the second string: ")
+strings=(input1+input2)
+print(strings)
+userinput=int(input("enter the no. you want to repeat the string: "))
+print(strings*userinput)
+
+#CAD-7 Q3:
+input1=input("enter the first string: ")
+input2=input("enter the second string: ")
+strings=[]
+strings.append(input1)
+strings.append(input2)
+print(strings)
+userinput=int(input("enter the no. you want to repeat the string: "))
+print(strings*userinput)
+
+#CAD-7 Q4:
+input1=input("enter the first string: ")
+input2=input("enter the second string: ")
+strings=(input1+input2)
+print(strings)
+userinput=int(input("enter the no. you want to repeat the string: "))
+print(strings*userinput)
+
+#CAD-7 Q5:
+input1=not(True and False)
+print(input1)
+input2=True or False
+print(input2)
+input3=not(False and True)
+print(input3)
+input4=False and False
+print(input4)
+
+#CAD-7 Q6:
+input1=input("enter the first string: ")
+input2=input("enter the second string: ")
+if(input1==input2):
+    print("two strings are equal")
+else:
+    print("strings are not equal")
+
+#CAD-7 Q7:
+x=12
+y=14
+a=(x>10 and y>10)
+b=(x>14 or y>14)
+c=not(x>10 and y>10)
+print(a,b,c)
+
+
+
+
+
+
+
+
+
+

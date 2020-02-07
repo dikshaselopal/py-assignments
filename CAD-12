@@ -1,0 +1,77 @@
+#CAD-12 Q1
+# write a program that ask the user to enter the string . the program should then print the following
+##a the total number of character in the string
+##b the string repeated 10 times
+##c the first character of the string (remember the string indices start at 0)
+##d the first three character of the string
+##e the last three character of the string
+##f the string backward
+##g the seventh character of the string if the string is long enough and a message otherwise
+##h the string with its first and last character
+##i the string in all caps
+##j the string with a replaced with e
+#a
+'''userinput=input("enter a string: ")
+count=len(userinput)
+print(count)'''
+#b
+'''userinput=input("enter a string: ")
+for i in range(11):
+    print(userinput)
+#c
+userinput=input("enter a string: ")
+print(userinput[0])
+#d
+a=input("enter a string: ")
+for i in range(0,3):
+ print(a[i])
+ #e
+a = input("enter a string: ")
+print(a[-3:])
+
+ #f
+a = input("enter a string: ")
+print(a[: :-1])
+
+#g
+a = input("enter a string: ")
+b=len(a)
+if(b<=7):
+    print(a)
+else:
+    print("string is too")
+#h
+a = input("enter a string: ")
+print(a[0],a[-1])
+#i
+a = input("enter a string: ")
+b=a.upper()
+print(b)
+#j
+a = input("enter a string: ")
+b=a.replace('a','e')
+print(b)
+
+##CAD-12 Q2 Write a program that asks the user to enter a word and determines whether the word is a palindrome or not.
+## A palindrome is a word that reads the same backwards as forwards
+userinput=input('enter the string: ')
+if(userinput==userinput[:: - 1]):
+     print("it is a palindrome")
+else:
+      print("it is not a palindrome")
+
+ ## CAD-12 Q3: write a program that asks the user to enter a string, then print out each letter of the string doubled and on a seprate line.
+ ##for instance, if the user entered HEY, the ouput would be
+ ##hh
+ ##ee
+ ##yy
+
+userinput = input("enter a string: ")
+for i in range(len( userinput)):
+     print(userinput[i]*2)'''
+
+## CAD-12 Q4:##Write a program that asks the user for a large integer and inserts commas into it according to the standard American convention for commas in large numbers.
+##For instance, if the user enters 1000000, the output should be 1,000,000.( Try for India format 10,00000)
+number=input("enter a large integer: ")
+b= {number}.format(",")
+print(b)
