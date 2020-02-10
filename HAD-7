@@ -1,0 +1,43 @@
+#HAD7 Q1:Write a program that computes and prints the result of 512 − 282/47 · 48 + 5. (It is roughly .1017)
+
+a=512
+b=282
+c=47
+d=48
+e=5
+f=(a-b)/(c*(d+e))
+print(f)
+
+#HAD7 Q2:write a program that ask the user to enter the number. print out the square but use the optional argument to print it out in a full sentence
+import math
+n =int(input("enter a number : "))
+print("the square of"+" "+str(n)+":"+str(n**2))
+
+#HAD7 Q3:write a program that ask the user to enter a number x and then use the sep optional argument to print out 2x 3x 4x each should be seprated with 3 dashes
+import math
+x=int(input("enter a number : "))
+print(str(x)+"---"+str(2*x)+"---"+str(3*x)+"---"+str(4*x)+"---"+str(5*x))
+
+#HAD7 Q4: Write a program that asks the user for a weight in kilograms and converts it to pounds. There are 2.2 pounds in a kilogram.
+import math
+x=int(input("enter a weight in kilogram : "))
+print("weight in pounds"+str(x*2.2))
+
+#HAD7 Q5:Write a program that asks the user to enter three numbers (use three separate input statements). Create variables called total
+## and average that hold the sum and average of the three numbers and print out the values of total and average
+import math
+x=int(input("enter first number : "))
+y=int(input("enter second number : "))
+z=int(input("enter third number : "))
+sum=x+y+z
+average=sum/3
+print("sum"+str(sum))
+print("average"+str(average))
+
+#HAD7 Q6:A lot of cell phones have tip calculators. Write one. Ask the user for the price of the meal and the percent tip they want to leave.
+##Then print both the tip amount and the total bill with the tip included.
+a=int(input("enter the rate of the meal: "))
+b=int(input("enter the percent tip: "))
+c=(a*b)/100
+d=a+c
+print(d)
