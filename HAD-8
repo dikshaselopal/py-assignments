@@ -1,8 +1,0 @@
-#HAD-8 Q1
-import random
-x=random.randint(1,50)
-print(x)
-y=random.randint(2,5)
-print(y)
-print(x*y)
-#HAD-8
